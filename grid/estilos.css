@@ -1,0 +1,78 @@
+/**************** GENERALES ************************** */
+:root {
+  --color-principal: #ffc107;
+  --color-secundario: #fdfbfb;
+  --color-terciario: #001028;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.container .row .titulo {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+}
+.container .linea {
+  border: 1px solid var(--color-terciario);
+  width: 100%;
+  margin-bottom: 10px;
+}
+.container  .principal .titulo-principal {
+  font-size: 20px;
+}
+.container  .principal .linea-principal {
+  border: 1px solid var(--color-principal);
+  width: 30%;
+}
+.container .row .bold {
+  font-weight: 600;
+  color: var(--color-terciario);
+}
+
+/**************** CONTACTO Y REFERENCIAS ************************** */
+.container .row .foto-perfil {
+  width: 128px;
+}
+
+.container .row .foto-perfil img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.container .row a {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--color-terciario);
+}
+.container .row a:hover {
+  text-decoration: underline;
+}
+
+.container .principal .rol {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+/**************** BOTON ************************** */
+.container .row  .ds{
+  background-color: var(--color-terciario);
+}
+
+.container .row  .ds:hover {
+    background-color: #000a1a;
+  }
